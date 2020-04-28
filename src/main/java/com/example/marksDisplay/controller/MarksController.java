@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping
 public class MarksController {
-    @GetMapping("/index")
 
     @Autowired
     private MarksService marksService;
