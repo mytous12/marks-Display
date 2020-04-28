@@ -11,7 +11,7 @@
     <groupId>com.example</groupId>
     <artifactId>marksDisplay</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>marksDisplay</name>
     <description>Displaying marks to users</description>
 

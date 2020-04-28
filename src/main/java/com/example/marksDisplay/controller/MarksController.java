@@ -5,13 +5,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping
+@RequestMapping("/")
 public class MarksController {
+
 
     @Autowired
     private MarksService marksService;
 
     @GetMapping("/demo")
+    @GetMapping("/")
     public String demo() {
         return "I'm running";
     }

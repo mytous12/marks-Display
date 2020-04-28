@@ -1,0 +1,3 @@
+com\example\marksDisplay\ServletInitializer.class
+com\example\marksDisplay\controller\MarksController.class
+com\example\marksDisplay\MarksDisplayApplication.class
