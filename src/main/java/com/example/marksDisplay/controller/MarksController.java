@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value = "/marks")
+@RequestMapping
 public class MarksController {
-    @GetMapping("/demo")
+    @GetMapping("/index")
     public String demo() {
         return "I'm running";
     }
